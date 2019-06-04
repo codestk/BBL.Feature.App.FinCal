@@ -1,0 +1,5 @@
+﻿<Project>
+  <FolderSync SynchronizeProjectOutputFolderOnBuild="False">
+    <Folder SourceFolder="assets\FinCal\" DestinationFolder="assets\FinCal\" Mode="Mirror" Pattern="*.*" />
+  </FolderSync>
+</Project>
