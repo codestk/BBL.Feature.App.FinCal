@@ -1,0 +1,30 @@
+﻿@model Sitecore.Data.Items.Item
+
+@using System
+@using System.Collections.Specialized
+@using System.Globalization
+@using Sitecore.Data.Fields
+@using Sitecore.Data.Items
+@using Sitecore.Resources.Media
+@using Sitecore
+@using Sitecore.Events
+@using System.Text
+
+<!-- include vue -->
+
+<script src="~/assets/FinCal/js/vue.min.js"></script>
+<script src="~/assets/FinCal/js/vue-form.min.js"></script>
+<link href="~/assets/FinCal/css/Style.css" rel="stylesheet" />
+<link href="~/assets/FinCal/css/app.css" rel="stylesheet" />
+<script src="~/assets/FinCal/js/config.js"></script>
+
+<div class="container">
+    <div class="panel panel-default">
+        <div id="MainForm" class="panel-body">
+            <div id="app"></div>
+        </div>
+    </div>
+</div>
+<script src="~/assets/FinCal/js/chunk-vendors.js"></script>
+<script src="~/assets/FinCal/js/app.js"></script>
+

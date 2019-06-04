@@ -1,0 +1,968 @@
+﻿
+/*@media (min-width: 1200px) {
+        .fincal-container {
+            width: 1200px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .fincal-container {
+            width: 992px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .fincal-container {
+            width: 768px;
+        }
+    }
+*/
+
+@media (max-width: 767px) { /* col-xs- , 0 - 767 pixels */
+    .lblBBL {
+        padding-left: 2%;
+    }
+
+    .fincal-fontdetail {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 768px) { /* col-sm- , 768 - 991 pixels */
+    .lblBBL {
+        padding-left: 2%;
+    }
+
+    .fincal-fontdetail {
+        margin-right: 3px;
+    }
+}
+
+@media (min-width: 992px) { /* col-md- , 992 - 1199 pixels */
+    .lblBBL {
+        padding-left: 0;
+    }
+
+    .fincal-fontdetail {
+        margin-right: 6px;
+    }
+}
+
+@media (min-width: 1200px) { /* col-lg- , 1200 up pixels */
+    .lblBBL {
+        padding-left: 0;
+    }
+
+    .fincal-fontdetail {
+        margin-right: 10px;
+    }
+}
+
+.fincal-section > .center-content2 {
+    /*max-width: 900px;*/
+    margin: 0 auto;
+}
+
+.fincal-section > .center-content3 {
+    max-width: 991px;
+    margin: 0 auto;
+}
+
+.fincal-section > article > section > div > div.result {
+    background: #565e6a;
+    padding: 10px 10px;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    opacity: 0.78;
+}
+
+/*.hide {
+        display:block !important;
+        visibility:visible;
+    }*/
+
+.fincal-result-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+}
+
+.fincal-section {
+    /*background-color: #25395a;*/
+    /*font-family:'THSarabun' !important;*/
+    line-height: 1.3;
+}
+
+
+.fincal-label-top-header {
+    color: #fff;
+    font-size: 28px;
+}
+
+fincal-label-input {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.fincal-text-left {
+    text-align: left;
+}
+
+.fincal-text-right {
+    text-align: right;
+}
+
+.fincal-text-center {
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    text-align: center;
+}
+
+/*#### section ####*/
+.section-educationplan {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.section-homeloan {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.section-calculate {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.section-data {
+    width: 100%;
+    float: left;
+    border: 0.5px solid #6ca3db;
+    border-radius: 1px 1px;
+    border-color: #6ca3db;
+}
+
+.section-result {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    min-height: 150px;
+    background-color: #585e6c;
+    text-align: center;
+}
+
+/*.section-cal-menu {
+        margin:0;
+        padding: 0;
+        background-color: #25395a;
+
+        text-align: center;
+    }*/
+
+.section-disclaimer {
+    margin: 0;
+    padding: 0;
+    background-color: #25395a;
+    min-height: 20px;
+    text-align: center;
+}
+
+.section-taxplanning {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.section-error {
+    display: none;
+}
+
+/*#### section ####*/
+
+
+
+/*#### Top Menu ####*/
+
+.dragscroll {
+    border: hidden;
+    background-color: transparent;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+    cursor: -o-grab;
+    cursor: grab;
+    margin: 0;
+    /*color: #fff;*/
+}
+
+    .dragscroll:active {
+        cursor: -webkit-grabbing;
+        cursor: -moz-grabbing;
+        cursor: -o-grabbing;
+        cursor: grabbing;
+    }
+
+.img-arrow-menu-left {
+    cursor: pointer;
+    position: absolute;
+    top: 15%;
+    left: -4%;
+    background-color: transparent;
+    width: 20px;
+    height: 200px;
+    opacity: 0.2;
+}
+
+.img-arrow-menu-right {
+    cursor: pointer;
+    position: absolute;
+    top: 15%;
+    left: 102%;
+    background-color: transparent;
+    width: 20px;
+    height: 200px;
+    opacity: 0.2;
+}
+
+    .img-arrow-menu-left:hover, .img-arrow-menu-right:hover {
+        opacity: 1;
+    }
+
+/*#### Top Menu ####*/
+
+
+/*#### disclaimer ####*/
+
+.fincal-ShowHideDisclaimer {
+    font-size: 12px !important;
+    font-weight: 200;
+    color: #adbcd1;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+    .fincal-ShowHideDisclaimer:hover {
+        color: #adbcd1;
+        opacity: 1;
+    }
+
+.fincal-label-disclaimer {
+    color: #fefefe;
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.fincal-ul-disclaimer {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+    .fincal-ul-disclaimer > li {
+        font-size: 15px !important;
+        list-style: none !important;
+        margin-bottom: 7px;
+        padding: 0;
+        color: #b1bfd3;
+    }
+
+/*#### disclaimer ####*/
+
+
+/*#### position ####*/
+
+.fincal-center-position {
+    text-align: center;
+}
+
+    .fincal-center-position > div {
+        float: none;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+
+.fincal-centered {
+    text-align: center;
+}
+
+    .fincal-centered > div {
+        float: none;
+        display: inline-block;
+        text-align: left;
+    }
+
+.fincal-centered2 > div {
+    float: none;
+    display: inline-block;
+    text-align: left;
+}
+
+/*#### position ####*/
+
+.fincal-sup-a {
+    font-family: 'glyphicons-halflings-regular';
+    color: #efefef;
+    font-size: 14px !important;
+    opacity: 0.8;
+}
+
+.fincal-sup-b {
+    font-family: 'glyphicons-halflings-regular';
+    font-size: 14px !important;
+    color: #efefef;
+    opacity: 0.8;
+}
+
+.fincal-sup-c {
+    font-size: 24px !important;
+    color: #fff;
+    opacity: 0.8;
+}
+
+/*#### image ####*/
+.image-homeloan {
+    min-width: 9%;
+    max-width: 20%;
+    height: 200px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+    .image-homeloan:hover {
+        opacity: 1;
+    }
+/*#### image ####*/
+
+.label-box-submenu {
+    color: #fff !important;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.fincal-btn-group-justified > .fincal-btn, .fincal-btn-group-justified > .fincal-btn-group {
+    display: table-cell;
+    float: none;
+    width: 1%;
+}
+
+.fincal-bbl-Middle-Menu > a.fincal-btn-default {
+    font-size: 28px;
+    background-color: transparent !important;
+    height: 110px;
+    color: #ccc;
+    font-weight: bold;
+    border-color: #ccc;
+    border: 1px solid #556a87;
+    /*white-space: unset !important;*/
+    white-space: initial;
+}
+
+/*.bbl-Middle-Menu a:first-child {
+        
+        border-radius: 25px 0px 0px 25px;
+        -moz-border-radius: 25px 0px 0px 25px;
+        -webkit-border-radius: 25px 0px 0px 25px;
+    }*/
+
+.fincal-bbl-Middle-Menu a.fincal-Active {
+    background-color: #556a87 !important;
+    color: #fff !important;
+}
+
+/*.bbl-Middle-Menu a:last-child {
+        border-radius: 0px 25px 25px 0px;
+        -moz-border-radius: 0px 25px 25px 0px;
+        -webkit-border-radius: 0px 25px 25px 0px;
+    }*/
+
+.fincal-bbl-Middle-Menu-new > a.fincal-btn-default {
+    font-size: 28px;
+    background-color: transparent !important;
+    height: 110px;
+    color: #ccc;
+    font-weight: bold;
+    border-color: #ccc;
+    border: 1px solid #556a87;
+    white-space: unset !important;
+    border-radius: 0;
+}
+
+.fincal-bbl-Middle-Menu-new > a.fincal-Active {
+    background-color: #556a87 !important;
+    color: #fff !important;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+
+/*### button ####*/
+
+.fincal-button-calculate {
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid #959595;
+    border-radius: 30px;
+    height: 45px;
+    color: #5a5a5a;
+    background-color: white;
+    font-size: 20px;
+    padding: 3%;
+    font-weight: 300;
+    -moz-box-shadow: 0 2px #9a9a9a;
+    -webkit-box-shadow: 0 2px #9a9a9a;
+    box-shadow: 0 2px #9a9a9a;
+    text-align: center;
+}
+
+    .fincal-button-calculate:hover,
+    .fincal-button-calculate.hover {
+        background-color: #f3f3f3;
+    }
+
+    .fincal-button-calculate:active,
+    .fincal-button-calculate.active {
+        background-color: #c1c1c1;
+        box-shadow: 0 1px #717171;
+        -moz-box-shadow: 0 1px #717171;
+        -webkit-box-shadow: 0 1px #717171;
+        transform: translateY(2px);
+    }
+
+.fincal-button-reset {
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid #959595;
+    border-radius: 30px;
+    height: 45px;
+    color: #5a5a5a;
+    background-color: white;
+    font-size: 20px;
+    padding: 3%;
+    font-weight: 300;
+    -moz-box-shadow: 0 2px #9a9a9a;
+    -webkit-box-shadow: 0 2px #9a9a9a;
+    box-shadow: 0 2px #9a9a9a;
+    text-align: center;
+}
+
+    .fincal-button-reset:hover,
+    .fincal-button-reset.hover {
+        background-color: #f3f3f3;
+    }
+
+    .fincal-button-reset:active,
+    .fincal-button-reset.active {
+        background-color: #c1c1c1;
+        box-shadow: 0 1px #717171;
+        -moz-box-shadow: 0 1px #717171;
+        -webkit-box-shadow: 0 1px #717171;
+        transform: translateY(2px);
+    }
+
+.btnbbl {
+    background-color: #003399;
+    color: #ffffff;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+}
+
+    .btnbbl:hover {
+        background-color: #323C46;
+        color: #6798D3;
+    }
+
+/*### button ####*/
+
+
+/*#### label ####*/
+.label-top-header {
+    color: white;
+}
+
+.label-error {
+    min-height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    color: #fae573;
+    background-color: #f15858;
+    font-weight: 800;
+    border: 1px solid #808080;
+    font-size: 18px;
+    padding-top: 2px;
+    padding-left: 5px;
+    /*color:#fae573;
+        background-color:#f15858;*/
+}
+
+.lblBBL {
+    color: #d5d5d5;
+    font-size: 16px;
+    font-weight: normal;
+    display: block;
+    pointer-events: none;
+    left: 30px;
+    top: 18px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    opacity: 0.7;
+}
+
+.lblInput {
+    font-size: 21px;
+    /*padding: 10px 10px 10px 5px;*/
+    display: block;
+    /*width: 300px;*/
+    border: none;
+    border-color: #435875;
+    /*border-bottom: 1px solid #757575;*/
+    /*text-align: right;*/
+    background-color: transparent;
+    border-radius: 50px;
+    color: #ccc;
+    width: 100%;
+}
+
+.textHighlight {
+    color: #fff !important;
+}
+
+.textlight {
+    color: #D3D0C9 !important;
+}
+
+.lText {
+    font-size: 45px;
+}
+
+.mText {
+    /*font-size: 1em;*/
+}
+
+.sText {
+    font-size: 16px;
+}
+
+/*Text Box*/
+.fincal-group {
+    position: relative;
+    /*margin-bottom: 15px;*/
+    display: block;
+}
+
+.box-textbox {
+    width: 100%;
+    border: 1px solid #6a83aa;
+    border-radius: 25px;
+    line-height: normal;
+    min-height: 60px;
+    padding-top: 0.08%;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.fincal-group {
+    /*padding: 0px 0px 5px 5px;*/
+    /* width: 300px; */
+    /*border: solid;
+        border-color: #435875;*/
+    /* border-bottom: 1px solid #757575; */
+    /*border: 1px solid #556a87;*/
+    display: block;
+    border: 1px solid #9e9e9e;
+    border-top-color: rgb(158, 158, 158);
+    border-right-color: rgb(158, 158, 158);
+    border-bottom-color: rgb(158, 158, 158);
+    border-left-color: rgb(158, 158, 158);
+    text-align: right;
+    background-color: transparent;
+    border-radius: 100px;
+    color: #999;
+    width: 100%;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+    padding-top: 1.5%;
+    padding-bottom: 2%;
+    display: flex;
+    align-items: center;
+    min-height: 48px;
+}
+
+
+    .fincal-group input {
+        font-size: 15px;
+        font-weight: 700;
+        text-align: right;
+        background-color: transparent;
+        border: none;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: 0px;
+        display: block;
+        width: 100%;
+        opacity: 0.8;
+    }
+
+        .fincal-group input:focus {
+            /*outline: none;*/
+            outline: none;
+        }
+
+    /* LABEL ======================================= */
+    .fincal-group label {
+        font-size: 0.925rem;
+        text-align: left;
+        background-color: transparent;
+        border: none;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-left: 0;
+        opacity: 0.8;
+    }
+
+    /* active state */
+    .fincal-group input:focus ~ label, .fincal-group input:valid ~ label {
+        /*font-size: 14px;*/
+        /*color: #5264AE;*/
+    }
+
+    /* BOTTOM BARS ================================= */
+    .fincal-group.bar {
+        /*position: relative;
+    display: block;
+    width: 300px;*/
+    }
+
+        .fincal-group.bar:before, .group.bar:after {
+            content: '';
+            height: 2px;
+            width: 0;
+            bottom: 1px;
+            position: absolute;
+            background: #5264AE;
+            transition: 0.2s ease all;
+            -moz-transition: 0.2s ease all;
+            -webkit-transition: 0.2s ease all;
+        }
+
+        .fincal-group.bar:before {
+            left: 50%;
+        }
+
+        .fincal-group.bar:after {
+            right: 50%;
+        }
+
+.fincal-unit {
+    font-size: 12px;
+    padding: 0px 0px 5px 5px;
+    display: block;
+    opacity: 0.6;
+    border: none;
+    text-align: right;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    min-height: 20px;
+    padding-right: 15px;
+}
+
+.fincal-fontdetail {
+    color: #fff;
+    font-size: 14px;
+}
+
+.fincal-align-left {
+    text-align: left;
+}
+
+.fincal-align-right {
+    text-align: right;
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+    width: 50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+    /*-webkit-animation: inputHighlighter 0.3s ease;
+        -moz-animation: inputHighlighter 0.3s ease;
+        animation: inputHighlighter 0.3s ease;*/
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+    from {
+        background: #5264AE;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@-moz-keyframes inputHighlighter {
+    from {
+        background: #5264AE;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@keyframes inputHighlighter {
+    from {
+        background: #5264AE;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+/*Step*/
+.stepwizard-step p {
+    margin-top: 10px;
+}
+
+.stepwizard-row {
+    display: table-row;
+}
+
+.stepwizard {
+    display: table;
+    width: 50%;
+    position: relative;
+}
+
+.stepwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    z-order: 0;
+}
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+
+
+.divBox {
+    border: 1px #0094ff inset;
+    width: 100%;
+    height: 150px;
+    background-color: #85cbfe;
+}
+
+.div-menu-eduplan {
+    width: 25%;
+    float: left;
+    padding: 4%;
+    border: 1px solid #16518a;
+    height: 100px;
+    cursor: pointer;
+    background-color: none;
+    text-align: center;
+}
+
+.div-menu-eduplan-active {
+    width: 25%;
+    float: left;
+    padding: 4%;
+    border: 1px solid #16518a;
+    height: 100px;
+    cursor: pointer;
+    background-color: #172740;
+    text-align: center;
+}
+
+.label-tab {
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    width: 100%;
+    font-size: 12px;
+    color: #d9d8d8;
+}
+
+.div-menu-eduplan:hover {
+    background-color: #172740;
+    color: #e6e6e6
+}
+
+.left-edu {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.right-edu {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.fincal-label {
+    color: #edecec;
+    font-size: 17px;
+    font-weight: 700;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    opacity: 0.88;
+}
+
+.fincal-label-unit {
+    font-size: 17px;
+    color: #edecec;
+    font-weight: 700;
+    padding-top: 0;
+    padding-bottom: 0;
+    opacity: 0.88;
+}
+
+.fincal-label-result {
+    font-size: 14px;
+    font-weight: 600;
+    color: #f28012;
+    opacity: 1;
+    text-shadow: 1px 2px 5px #313131;
+}
+
+.fincal-note {
+    font-size: 14px;
+    color: #edecec;
+    opacity: 0.88;
+}
+
+.fincal-no-margin-padding {
+    padding: 0;
+    margin: 0;
+}
+
+.fincal-label-education-result {
+    font-size: 26px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.fincal-textbox-output {
+    color: #e0600a !important;
+    border: none;
+    background: none;
+    font-size: 24px;
+    width: 100px;
+    text-align: center;
+}
+
+.radio label {
+    line-height: 1.3;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    opacity: 0.7;
+    font-weight: 700;
+}
+
+.radio.none-bgd label {
+    color: #fff;
+    /*color: rgba(255, 255, 255, 0.5);*/
+}
+
+    .radio.none-bgd label.fincal-active {
+        background: #162840;
+    }
+
+.fincal-group.has-danger {
+    border-color: red;
+}
+
+.form-control-feedback.has-danger {
+    font-size: 0.925rem;
+    text-align: left;
+    color: red;
+}
+
+@media only screen and (max-width: 991px) {
+    .fincal-group label {
+        font-size: 0.78rem;
+        text-align: left;
+        background-color: transparent;
+        border: none;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-left: 0;
+        opacity: 0.8;
+    }
+
+    [lang="th"] [data-tab] .tab-header a {
+        font-size: .78rem;
+        text-transform: uppercase;
+        position: relative;
+        display: inline-block;
+    }
+}
